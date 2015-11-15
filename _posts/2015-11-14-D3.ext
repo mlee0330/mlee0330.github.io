@@ -16,3 +16,5 @@ var wall = body.append('svg')
 {% endhighlight %}
 
 To be continued...
+
+[Click here to see a working example of the final product.](http://waggish-operation.surge.sh/)
