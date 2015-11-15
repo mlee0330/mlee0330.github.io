@@ -1,0 +1,16 @@
+---
+title:  D3: Getting Started With Visualizations
+date:   2015-11-14 10:18:00
+description: Harnessing the power of D3 to make things that look cool.
+---
+
+D3 is a great tool for creating visualizations of your data. That same functionality of bringing your data to life can be used to create visual experiences with randomized data. To get started with simple visualizations using D3 and SVG, first create an SVG Container. 
+
+{% highlight javascript linens %}
+var body = d3.select('body');
+
+var wall = body.append('svg')
+               .attr('width', wallWidth + 15)
+               .attr('height', wallHeight + 15)
+               .attr('class', 'wall');
+{% endhighlight %}
